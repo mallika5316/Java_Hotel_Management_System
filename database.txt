@@ -1,0 +1,12 @@
+CREATE DATABASE HotelDB;
+
+USE HotelDB;
+
+CREATE TABLE Reservations (
+  ReservationID INT PRIMARY KEY AUTO_INCREMENT,
+  CustomerName VARCHAR(100),
+  RoomNumber VARCHAR(10),
+  CheckIn DATE,
+  CheckOut DATE,
+  TotalAmount DECIMAL(10,2)
+);
