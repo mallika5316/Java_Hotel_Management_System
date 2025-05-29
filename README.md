@@ -38,33 +38,8 @@ Ensure the following tools are installed:
 
 ---
 
-## 🗂️ Project Structure
-
-HotelManagementSystem/
-├── src/
-│ ├── model/
-│ │ └── Reservation.java
-│ ├── dao/
-│ │ └── ReservationDAO.java
-│ └── servlet/
-│ ├── AddReservationServlet.java
-│ ├── UpdateReservationServlet.java
-│ ├── DeleteReservationServlet.java
-│ ├── DisplayReservationsServlet.java
-│ └── ReportServlet.java
-├── WebContent/
-│ ├── addreservation.jsp
-│ ├── updatereservation.jsp
-│ ├── deletereservation.jsp
-│ ├── reservationdisplay.jsp
-│ ├── reportform.jsp
-│ └── reportresult.jsp
-├── WEB-INF/
-│ └── web.xml
-└── README.md
 
 
----
 
 ## 🗄️ Database Setup
 
@@ -75,7 +50,7 @@ CREATE DATABASE IF NOT EXISTS hotel_management;
 USE hotel_management;
 
 
-2. Create the Table
+## 2. Create the Table
 
 CREATE TABLE IF NOT EXISTS Reservations (
     reservationId INT PRIMARY KEY AUTO_INCREMENT,
@@ -88,18 +63,18 @@ CREATE TABLE IF NOT EXISTS Reservations (
 
 
 
-3. Insert Sample Data
+## 3. Insert Sample Data
 
 INSERT INTO Reservations (customerName, roomNumber, checkIn, checkOut, totalAmount) VALUES
 ('Mansi Gowda', 101, '2025-05-10', '2025-05-12', 2500.00),
 ('Samay Shetty', 102, '2025-05-15', '2025-05-18', 4000.00),
 ('Shravya Nair', 103, '2025-05-11', '2025-05-13', 3200.00);
 
+---
+## ⚙️ Setup & Deployment
 
-⚙️ Setup & Deployment
 
-
-Step 1: Configure the Project
+## Step 1: Configure the Project
 Open Eclipse
 
 Create a Dynamic Web Project
@@ -108,14 +83,14 @@ Copy your project structure into the workspace
 
 
 
-Step 2: Add JDBC Driver
+## Step 2: Add JDBC Driver
 Download MySQL Connector/J
 Add .jar to WEB-INF/lib
 Right-click → Build Path → Add to Build Path
 
 
 
-Step 3: Update Database Credentials
+## Step 3: Update Database Credentials
 In ReservationDAO.java, modify the connection string:
 Connection conn = DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/hotel_management", 
@@ -125,7 +100,7 @@ Connection conn = DriverManager.getConnection(
 
 
 
-Step 4: Run on Tomcat
+## Step 4: Run on Tomcat
 Right-click project → Run on Server
 
 Select Tomcat 9+
@@ -136,9 +111,9 @@ Step 5: Access the App
 Open browser and go to:
 http://localhost:8080/HotelManagementSystem/
 
+---
 
-
-💡 Usage
+## 💡 Usage
 ✅ Add Reservation
 Visit addreservation.jsp
 
@@ -170,10 +145,10 @@ Customer-wise Reservation
 
 Revenue Report
 
+---
 
 
-
-🎓 Learning Outcomes
+## 🎓 Learning Outcomes
 ✨ Practical experience with JSP, Servlets, JDBC
 
 🧱 Implemented real-world MVC structure
