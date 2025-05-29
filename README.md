@@ -66,9 +66,7 @@ CREATE TABLE IF NOT EXISTS Reservations (
 ## 3. Insert Sample Data
 
 INSERT INTO Reservations (customerName, roomNumber, checkIn, checkOut, totalAmount) VALUES
-('Mansi Gowda', 101, '2025-05-10', '2025-05-12', 2500.00),
-('Samay Shetty', 102, '2025-05-15', '2025-05-18', 4000.00),
-('Shravya Nair', 103, '2025-05-11', '2025-05-13', 3200.00);
+('Mallika K Gowda', 101, '2025-05-10', '2025-05-12', 2500.00),
 
 ---
 ## ⚙️ Setup & Deployment
