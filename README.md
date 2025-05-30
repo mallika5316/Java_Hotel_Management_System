@@ -111,53 +111,22 @@ http://localhost:8080/HotelManagementSystem/
 
 ---
 
-## 💡 Usage
-✅ Add Reservation
-Visit addreservation.jsp
-
-Fill details and submit
-
-✅ Update Reservation
-Go to updatereservation.jsp
-
-Enter ID, update values, and submit
-
-✅ Delete Reservation
-Visit deletereservation.jsp
-
-Enter ID and click Delete
-
-✅ View Reservations
-Open reservationdisplay.jsp
-
-All records will be listed
-
-✅ Generate Reports
-Navigate to reportform.jsp
-
-Choose report type:
-
-Date Range (Rooms Booked)
-
-Customer-wise Reservation
-
-Revenue Report
-
-
----
 
 
 ## 📸 Sample Outputs
 
 ### 🧾 Add Reservation Page
-![Add Reservation](images/add_reservation.png)
+![Add Reservation](images/AddReservation.png)
 
 ### 📋 View Reservations
-![View Reservations](images/view_reservations.png)
+![View Reservations](images/viewReservation.png)
+
+### 📋 Update Reservations
+![View Reservations](images/updateReservation.png)
 
 ### 📈 Revenue Report
-![Revenue Report](images/revenue_report.png)
-
+![Revenue Report](images/ReportForRevenueGenerated.png)
+![Revenue Report](images/ReportResult1.png)
 
 
 
