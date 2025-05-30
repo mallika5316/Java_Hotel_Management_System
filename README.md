@@ -112,21 +112,21 @@ http://localhost:8080/HotelManagementSystem/
 ---
 
 
-
 ## 📸 Sample Outputs
 
 ### 🧾 Add Reservation Page
-![Add Reservation](images/AddReservation.png)
+<img src="images/AddReservation.png" alt="Add Reservation" width="500"/>
 
 ### 📋 View Reservations
-![View Reservations](images/viewReservation.png)
+<img src="images/viewReservation.png" alt="View Reservations" width="500"/>
 
 ### 📋 Update Reservations
-![View Reservations](images/updateReservation.png)
+<img src="images/updateReservation.png" alt="Update Reservation" width="500"/>
 
 ### 📈 Revenue Report
-![Revenue Report](images/ReportForRevenueGenerated.png)
-![Revenue Report](images/ReportResult1.png)
+<img src="images/ReportForRevenueGenerated.png" alt="Revenue Report" width="500"/>
+<img src="images/ReportResult1.png" alt="Revenue Result" width="500"/>
+
 
 
 
