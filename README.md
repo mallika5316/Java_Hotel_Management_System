@@ -143,7 +143,22 @@ Customer-wise Reservation
 
 Revenue Report
 
+
 ---
+
+
+## 📸 Sample Outputs
+
+### 🧾 Add Reservation Page
+![Add Reservation](images/add_reservation.png)
+
+### 📋 View Reservations
+![View Reservations](images/view_reservations.png)
+
+### 📈 Revenue Report
+![Revenue Report](images/revenue_report.png)
+
+
 
 
 ## 🎓 Learning Outcomes
