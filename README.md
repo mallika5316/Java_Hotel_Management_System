@@ -72,7 +72,7 @@ INSERT INTO Reservations (customerName, roomNumber, checkIn, checkOut, totalAmou
 
 ## 📸 Sample Outputs
 ### 🧾 Add Reservation Page
-<img src="images/AddReservation.png" alt="Add Reservation" width="500"/>
+<img src="images/index.png" alt="Add Reservation" width="500"/>
 
 ### 🧾 Add Reservation Page
 <img src="images/AddReservation.png" alt="Add Reservation" width="500"/>
