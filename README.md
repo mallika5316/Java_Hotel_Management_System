@@ -69,48 +69,6 @@ INSERT INTO Reservations (customerName, roomNumber, checkIn, checkOut, totalAmou
 ('Mallika K Gowda', 101, '2025-05-10', '2025-05-12', 2500.00),
 
 ---
-## ⚙️ Setup & Deployment
-
-
-## Step 1: Configure the Project
-Open Eclipse
-
-Create a Dynamic Web Project
-
-Copy your project structure into the workspace
-
-
-
-## Step 2: Add JDBC Driver
-Download MySQL Connector/J
-Add .jar to WEB-INF/lib
-Right-click → Build Path → Add to Build Path
-
-
-
-## Step 3: Update Database Credentials
-In ReservationDAO.java, modify the connection string:
-Connection conn = DriverManager.getConnection(
-    "jdbc:mysql://localhost:3306/hotel_management", 
-    "root", 
-    ""
-);
-
-
-
-## Step 4: Run on Tomcat
-Right-click project → Run on Server
-
-Select Tomcat 9+
-
-Make sure MySQL is running
-
-Step 5: Access the App
-Open browser and go to:
-http://localhost:8080/HotelManagementSystem/
-
----
-
 
 ## 📸 Sample Outputs
 
@@ -128,7 +86,7 @@ http://localhost:8080/HotelManagementSystem/
 <img src="images/ReportResult1.png" alt="Revenue Result" width="500"/>
 
 
-
+---
 
 ## 🎓 Learning Outcomes
 ✨ Practical experience with JSP, Servlets, JDBC
