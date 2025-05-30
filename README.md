@@ -71,6 +71,8 @@ INSERT INTO Reservations (customerName, roomNumber, checkIn, checkOut, totalAmou
 ---
 
 ## 📸 Sample Outputs
+### 🧾 Add Reservation Page
+<img src="images/AddReservation.png" alt="Add Reservation" width="500"/>
 
 ### 🧾 Add Reservation Page
 <img src="images/AddReservation.png" alt="Add Reservation" width="500"/>
@@ -81,9 +83,20 @@ INSERT INTO Reservations (customerName, roomNumber, checkIn, checkOut, totalAmou
 ### 📋 Update Reservations
 <img src="images/updateReservation.png" alt="Update Reservation" width="500"/>
 
+### 🧾 Delete Reservation 
+<img src="images/deleteReservation.png" alt="delete Reservation" width="500"/>
+
 ### 📈 Revenue Report
 <img src="images/ReportForRevenueGenerated.png" alt="Revenue Report" width="500"/>
 <img src="images/ReportResult1.png" alt="Revenue Result" width="500"/>
+
+### 📈 Date Range Report
+<img src="images/ReportGeneration.png" alt="Revenue Report" width="500"/>
+<img src="images/DateRange.png" alt="Revenue Result" width="500"/>
+
+### 📈 Revenue Report
+<img src="images/ReportGeneration-ByCustomer.png" alt="Revenue Report" width="500"/>
+<img src="images/ReportResult2.png" alt="Revenue Result" width="500"/>
 
 
 ---
