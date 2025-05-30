@@ -94,7 +94,7 @@ INSERT INTO Reservations (customerName, roomNumber, checkIn, checkOut, totalAmou
 <img src="images/ReportGeneration.png" alt="Revenue Report" width="500"/>
 <img src="images/DateRange.png" alt="Revenue Result" width="500"/>
 
-### 📈 Revenue Report
+### 📈 ByCustomer Report
 <img src="images/ReportGeneration-ByCustomer.png" alt="Revenue Report" width="500"/>
 <img src="images/ReportResult2.png" alt="Revenue Result" width="500"/>
 
